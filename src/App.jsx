@@ -6,7 +6,6 @@ import Home from "./components/Home";
 
 function App() {
   const [theme, setTheme] = useState("light");
-  
 
   useEffect(() => {
     if (theme === "dark") {
@@ -16,12 +15,9 @@ function App() {
     }
   }, [theme]);
 
-
-
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
-
 
   return (
     <div className="h-screen white:bg-white dark:bg-black dark:text-white">
