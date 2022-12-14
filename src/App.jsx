@@ -20,9 +20,9 @@ function App() {
   };
 
   return (
-    <div className="h-screen white:bg-white dark:bg-black dark:text-white">
+    <div className="h-screen white:bg-white dark:bg-black dark:text-white dark:text-w">
       <button
-        className="bg-green-200 p-4 rounded-3xl"
+        className="bg-black text-white p-4 rounded-3xl"
         onClick={() => {
           handleThemeSwitch();
         }}

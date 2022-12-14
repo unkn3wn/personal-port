@@ -1,0 +1,34 @@
+.nameMe {
+  position: relative;
+  font-size: 3.82vw;
+  color: white;
+  -webkit-text-stroke: .1vw grey;
+  text-transform: uppercase;
+}
+
+.nameMe::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  color: blue;
+  -webkit-text-stroke: .1vw blue;
+  border-right: 3px solid grey;
+  overflow: hidden;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  
+  90% {
+    width: 103%;
+  }
+}

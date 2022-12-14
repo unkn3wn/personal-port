@@ -1,22 +1,19 @@
 import react from "react";
-import styles from "../styles/home.module.css";
-
+import Pg1 from "./Pg1";
 
 
 export default function Home() {
   return (  
     <div>
       
-      <section>
-      <h1>this is cool</h1>
+      <section className="h-screen w-full white:bg-blue-900 dark:bg-black dark:text-white">
+      <Pg1/>
       </section>
-      <section>
-        {/* pg two */}
+      <section className="h-screen w-full white:bg-white dark:bg-red-400 dark:text-white">
+        <h1>two</h1>
       </section>
-      <section>
-        {/* pg three */}
-      </section>
-      <section>
+      <section className="h-screen w-full white:bg-white dark:bg-black dark:text-white">
+        <h1>three</h1>
       </section>
 
 
