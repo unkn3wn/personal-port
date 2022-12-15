@@ -22,8 +22,8 @@ function App() {
   };
 
   return (
-    <div className="h-screen white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w">
-      <div className="flex mt-10">
+    <div className="h-screen white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w ">
+      <div className="flex ">
         <div className="mt-2">
           <h1>this</h1>
         </div>
