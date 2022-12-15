@@ -1,9 +1,9 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Brightness4Icon from '@mui/icons-material/Brightness4';
-import Brightness7Icon from '@mui/icons-material/Brightness7';
-import IconButton from '@mui/material/IconButton';
+import Brightness4Icon from "@mui/icons-material/Brightness4";
+import Brightness7Icon from "@mui/icons-material/Brightness7";
+import IconButton from "@mui/material/IconButton";
 import Home from "./components/Home";
 
 function App() {
@@ -23,13 +23,16 @@ function App() {
 
   return (
     <div className="h-screen white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w">
-     <IconButton
-      onClick={()=>{
-        handleThemeSwitch();
-      }}
-     >
-      {theme === "dark" ? <Brightness7Icon/> : <Brightness4Icon/>}
-     </IconButton>
+      <IconButton
+        sx={{
+          fontSize: "100px",
+        }}
+        onClick={() => {
+          handleThemeSwitch();
+        }}
+      >
+        {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
+      </IconButton>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
