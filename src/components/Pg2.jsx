@@ -4,14 +4,18 @@ import "aos/dist/aos.css";
 
 export default function Skills() {
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 1500 });
   }, []);
 
   return (
-    <div>
+    <div className="mt-10">
+      {/* data-aos */}
       <div className="flex flex-wrap justify-center ">
         {/* javaScript */}
-        <div className="flex flex-col bg-black rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52 "
+        >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
             className="h-20 m-6 justify-center"
@@ -23,27 +27,14 @@ export default function Skills() {
             rel="noreferrer"
             className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
           >
-            <p className="bg-blue-500 text-center">javascript</p>
-          </a>
-        </div>
-        {/* HTML */}
-        <div className="flex flex-col bg-black rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
-            className="h-20 m-6 justify-center"
-            alt="HTML5"
-          />
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-            target="_blank"
-            rel="noreferrer"
-            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
-          >
-            <p className="bg-blue-500 text-center">HTML</p>
+            <p className="bg-blue-500 text-center">Javascript</p>
           </a>
         </div>
         {/* react */}
-        <div className="flex flex-col bg-black rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
             className="h-20 m-6 justify-center"
@@ -58,89 +49,183 @@ export default function Skills() {
             <p className="bg-blue-500 text-center">REACT</p>
           </a>
         </div>
+
+        {/* nodeJs */}
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="NodeJS"
+          />
+          <a
+            href="https://nodejs.org/en/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p>NodeJS</p>
+          </a>
+        </div>
+        {/* express */}
+
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="Express"
+          />
+          <a
+            href="https://expressjs.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p className="bg-blue-500 text-center">Express</p>
+          </a>
+        </div>
+        {/* psql */}
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="PostgreSQL"
+          />
+          <a
+            href="https://www.postgresql.org/"
+            target="_blank"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+            rel="noreferrer"
+          >
+            <p className="bg-blue-500 text-center">PostgreSQL</p>
+          </a>
+        </div>
+        {/* HTML */}
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="HTML5"
+          />
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p className="bg-blue-500 text-center">HTML</p>
+          </a>
+        </div>
+
         {/* css */}
-        <div>
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="CSS3"
+          />
           <a
             href="https://www.w3.org/TR/CSS/#css"
             target="_blank"
             rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
           >
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
-              width="36"
-              height="36"
-              alt="CSS3"
-            />
+            <p className="bg-blue-500 text-center">CSS</p>
           </a>
         </div>
+
         {/* bootstrap */}
-        <div>
-          <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-              width="36"
-              height="36"
-              alt="Bootstrap"
-            />
-          </a>
-        </div>
-        {/* mateiral ui */}
-        <div>
-          <a href="https://mui.com/" target="_blank" rel="noreferrer">
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg"
-              width="36"
-              height="36"
-              alt="Material UI"
-            />
-          </a>
-        </div>
-        {/* webpack */}
-        <div>
-          <a href="https://webpack.js.org/" target="_blank" rel="noreferrer">
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg"
-              width="36"
-              height="36"
-              alt="Webpack"
-            />
-          </a>
-        </div>
-        {/* nodeJs */}
-        <div>
-          <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
-              width="36"
-              height="36"
-              alt="NodeJS"
-            />
-          </a>
-        </div>
-        {/* express */}
-        <div>
-          <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
-              width="36"
-              height="36"
-              alt="Express"
-            />
-          </a>
-        </div>
-        {/* psql */}
-        <div>
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="Bootstrap"
+          />
           <a
-            href="https://www.postgresql.org/"
+            href="https://getbootstrap.com/"
             target="_blank"
             rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
           >
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
-              width="36"
-              height="36"
-              alt="PostgreSQL"
-            />
+            <p className="bg-blue-500 text-center">Bootstap</p>
+          </a>
+        </div>
+
+        {/* mateiral ui */}
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="Material UI"
+          />
+          <a
+            href="https://mui.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p className="bg-blue-500 text-center">Material UI</p>
+          </a>
+        </div>
+
+        {/* tailwind */}
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="TailwindCSS"
+          />
+          <a
+            href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p className="bg-blue-500 text-center">Tailwind CSS</p>
+          </a>
+        </div>
+
+        {/* webpack */}
+
+        <div
+          data-aos="fade-up"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="Webpack"
+          />
+          <a
+            href="https://webpack.js.org/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            <p className="bg-blue-500 text-center">Webpack</p>
           </a>
         </div>
       </div>

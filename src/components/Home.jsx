@@ -15,11 +15,15 @@ export default function Home() {
         <Pg1 />
       </section>
       <section className="h-screen w-full white:bg-white dark:bg-neutral-900 dark:text-white">
+        <div>
+          <h1>SKILLS</h1>
+        </div>
         <Skills />
       </section>
-      <section className="h-screen w-full white:bg-white dark:bg-neutral-900 dark:text-white">
-        <h1>three</h1>
+      <section>
+        three
       </section>
+      
     </div>
   );
 }

@@ -23,16 +23,22 @@ function App() {
 
   return (
     <div className="h-screen white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w">
-      <IconButton
-        sx={{
-          fontSize: "100px",
-        }}
-        onClick={() => {
-          handleThemeSwitch();
-        }}
-      >
-        {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
-      </IconButton>
+      <div className="flex mt-10">
+        <div className="mt-2">
+          <h1>this</h1>
+        </div>
+
+        <IconButton
+          sx={{
+            fontSize: "100px",
+          }}
+          onClick={() => {
+            handleThemeSwitch();
+          }}
+        >
+          {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
+        </IconButton>
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
