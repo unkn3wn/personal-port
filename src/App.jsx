@@ -22,13 +22,12 @@ function App() {
   };
 
   return (
-    <div className="h-screen white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w ">
-      <div className="flex ">
-        <div className="mt-2">
-          <h1>this</h1>
-        </div>
-
-        <IconButton
+    <div className=" white:bg-white dark:bg-neutral-900 dark:text-white dark:text-w ">
+      {/* dark mode light mode div below */}
+      
+        <div className="mt-0">
+          <h1>this is where we will put the nav</h1>
+          <IconButton
           sx={{
             fontSize: "100px",
           }}
@@ -38,7 +37,8 @@ function App() {
         >
           {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
         </IconButton>
-      </div>
+        </div>
+        
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

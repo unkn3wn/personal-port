@@ -11,19 +11,16 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <section className="h-screen w-full white:bg-blue-900 dark:bg-neutral-900 dark:text-white">
+      <section>
         <Pg1 />
       </section>
-      <section className="h-screen w-full white:bg-white dark:bg-neutral-900 dark:text-white">
-        <div>
-          <h1>SKILLS</h1>
-        </div>
+      <section>
+        <h1>SKILLS</h1>
         <Skills />
       </section>
       <section>
-        three
+        <h1>this is the third section</h1>
       </section>
-      
     </div>
   );
 }
