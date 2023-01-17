@@ -1,25 +1,31 @@
 import { useEffect } from "react";
+import styles from "../styles/Home.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Pg1 from "./Pg1";
-import Skills from "./Pg2";
+import Pg1 from "./WelcomeIntro";
+import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 1500 });
   }, []);
   return (
     <div>
       <section>
         <Pg1 />
       </section>
-      <section>
+      <section className={styles.sections}>
         <h1>SKILLS</h1>
         <Skills />
       </section>
-      <section>
-        <h1>this is the third section</h1>
+      <section className={styles.sections}>
+        <h1>Projects</h1>
+        <Projects />
+      </section>
+      <section className={styles.sections}>
+        <h1>Education</h1>
       </section>
     </div>
   );
