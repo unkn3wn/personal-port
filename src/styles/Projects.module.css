@@ -1,6 +1,10 @@
 .singleCard{
     background-color: #121212;
+    margin-top: 30px;
     width: 600px;
+}
+.cryptoFinder{
+    height: 400px;
 }
 
 .projectImg{

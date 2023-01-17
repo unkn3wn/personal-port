@@ -6,6 +6,7 @@ import Brightness7Icon from "@mui/icons-material/Brightness7";
 import IconButton from "@mui/material/IconButton";
 import Home from "./components/Home";
 import RealFakeClothsInfo from "./components/RealFakeClothsInfo"
+import CryptoFinderPage from "./components/CryptoFinder"
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/RealFakeClothsProject" element={<RealFakeClothsInfo/>}/>
+        <Route path="/CryptoFinder" element={<CryptoFinderPage/>}/>
       </Routes>
     </div>
   );
