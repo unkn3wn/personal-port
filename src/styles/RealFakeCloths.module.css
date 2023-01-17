@@ -36,7 +36,7 @@
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-size: 40px;
-    text-shadow: 1px 1px 100px blue;
+    text-shadow: 1px 1px 100px yellow;
     text-decoration: underline black;
     margin-top: 30px;
 }
@@ -45,4 +45,19 @@
   font-size: 25px;
   text-align: center;
   font-family: "EB Garamond", serif;
+}
+
+.links{
+   margin-left: 30px;
+   background-color: yellow;
+   height: 40px;
+   border-radius: 10px;
+   width: 200px;
+   text-align: center;
+   margin-top: 30px;
+   color: black;
+}
+
+.links:hover{
+  box-shadow: 0 0 11px yellow; 
 }

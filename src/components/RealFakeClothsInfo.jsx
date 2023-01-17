@@ -3,7 +3,10 @@ import ProductsPage from "../assets/ProductsPage.png";
 import ProductsPageSmallScreen from "../assets/ProductsPageSmallScreen.png";
 import SmallerScreenProducts from "../assets/SmallerScreenProducts.png";
 
+import { useNavigate } from "react-router-dom";
+
 export default function RealFakeClothsInfo() {
+  const nav = useNavigate;
   return (
     <div className="white:bg-white dark:bg-stone-800 dark:text-white dark:text-w ">
       <div>
@@ -13,7 +16,26 @@ export default function RealFakeClothsInfo() {
         <img className={styles.pic2} src={ProductsPageSmallScreen} />
         <img className={styles.pic3} src={SmallerScreenProducts} />
         <div className={styles.allDescription}>
-            <h1 className={styles.title}>DESCRIPTION</h1>
+          <h1 className={styles.title}>DESCRIPTION</h1>
+
+          <div className="display flex justify-center ">
+            <a
+              className={styles.links}
+              target="_blank"
+              href="https://github.com/unkn3wn/graceShopper2"
+            >
+              {" "}
+              Github
+            </a>
+
+            <a
+              className={styles.links}
+              target="_blank"
+              href="https://nameless-wood-5974.fly.dev/"
+            >
+              Deployed Site
+            </a>
+          </div>
           <h2 className={styles.description}>
             Real Fake Clothes is my Capstone Project for the 2209 Web
             Development Bootcamp. With a group of 3, we made a fully interactive
