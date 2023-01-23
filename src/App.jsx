@@ -8,6 +8,8 @@ import Home from "./components/Home";
 import RealFakeClothsInfo from "./components/RealFakeClothsInfo"
 import CryptoFinderPage from "./components/CryptoFinder"
 
+import Todo from "./components/TodoList";
+
 function App() {
   const [theme, setTheme] = useState("light");
 
@@ -44,6 +46,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/RealFakeClothsProject" element={<RealFakeClothsInfo/>}/>
         <Route path="/CryptoFinder" element={<CryptoFinderPage/>}/>
+        <Route path="/Todo" element={<Todo/>}/>
       </Routes>
     </div>
   );

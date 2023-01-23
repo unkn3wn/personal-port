@@ -1,16 +1,47 @@
-.singleCard{
-    background-color: #121212;
-    margin-top: 30px;
-    width: 600px;
+.singleCard {
+  height: 600px;
+  background-color: rgb(31 41 55);
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 600px;
 }
-.cryptoFinder{
-    height: 400px;
+.titleProjects {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+  color: rgb(59 130 246);
 }
-
-.projectImg{
-    height: 300px;
-    width: 400px;
+.cryptoFinder {
+  height: 400px;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.infoButton{
-    background-color: #CF6679;
+.todoImg{
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  margin-top: 20px;
+}
+.projectImg {
+  height: 400px;
+  width: 450px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.descriptionsProjects {
+  color: white;
+  text-align: left;
+  margin-top: 30px;
+  text-align: center;
+}
+.infoButton {
+  background-color: #cf6679;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 40px;
 }

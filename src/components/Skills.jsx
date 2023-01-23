@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 export default function Skills() {
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 2500 });
   }, []);
 
   return (
