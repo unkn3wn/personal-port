@@ -1,13 +1,12 @@
-import react from "react";
-import TodoListImg from "../assets/TodoList.png";
-import updateImg from "../assets/UpdatingTodo.png";
-import createImg from "../assets/createTodo.png";
+
+import TodoListImg from "../assets/TodoList/TodoList.png";
+import updateImg from "../assets/TodoList/UpdatingTodo.png";
+import createImg from "../assets/TodoList/createTodo.png";
 import styles from "../styles/RealFakeCloths.module.css";
 
 export default function Todo() {
   return (
     <div>
-      <h1>this</h1>
       <img className={styles.firstImage} src={TodoListImg} />
       <img className={styles.firstImage} src={updateImg} />
       <img className={styles.firstImage} src={createImg} />
@@ -39,10 +38,13 @@ export default function Todo() {
         </a>
       </div>
       <h2 className={styles.description}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex
-        accusantium officia ut sunt nostrum neque excepturi voluptate
-        cupiditate. Nihil aperiam consequatur mollitia. Voluptate aspernatur id
-        accusantium repellat enim dolor!
+        A todo list app is a digital tool that allows users to create and manage
+        a list of tasks or activities that they need to complete. It typically
+        features a simple interface where users can add new tasks, delete a task
+        that has been complete, or update a task if the task changes.
+        technologies used in git one: Postgresql, NodeJs, Javascript, and React.
+        Technologies used in second git: Postgresql, Prisma, NodeJs, JavaScript,
+        and React
       </h2>
     </div>
   );

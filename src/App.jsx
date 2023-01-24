@@ -7,6 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import Home from "./components/Home";
 import RealFakeClothsInfo from "./components/RealFakeClothsInfo"
 import CryptoFinderPage from "./components/CryptoFinder"
+import StrangersThings from "./components/StrangersThings";
 
 import Todo from "./components/TodoList";
 
@@ -18,11 +19,15 @@ function App() {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
+      
     }
+    
   }, [theme]);
 
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
+   
+  
   };
 
   return (
@@ -35,6 +40,7 @@ function App() {
             fontSize: "100px",
           }}
           onClick={() => {
+          
             handleThemeSwitch();
           }}
         >
@@ -43,10 +49,11 @@ function App() {
       </div>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/RealFakeClothsProject" element={<RealFakeClothsInfo/>}/>
-        <Route path="/CryptoFinder" element={<CryptoFinderPage/>}/>
-        <Route path="/Todo" element={<Todo/>}/>
+        <Route path ="/" element={<Home />} />
+        <Route path ="/RealFakeClothsProject" element={<RealFakeClothsInfo/>}/>
+        <Route path ="/CryptoFinder" element={<CryptoFinderPage/>}/>
+        <Route path ="/Todo" element={<Todo/>}/>
+        <Route path ="StrangersThings" element={<StrangersThings/>}/>
       </Routes>
     </div>
   );

@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 import Pg1 from "./WelcomeIntro";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Education from "./Education";
+import AboutMe from "./AboutMe";
 
 export default function Home() {
   useEffect(() => {
@@ -26,7 +28,13 @@ export default function Home() {
       </section>
       <section className={styles.sections}>
         <h1>Education</h1>
+        <Education/>
       </section>
+      <section className={styles.sections}>
+        <h1>About Me</h1>
+        <AboutMe/>
+      </section>
+    
     </div>
   );
 }

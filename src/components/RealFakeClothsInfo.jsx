@@ -1,7 +1,7 @@
 import styles from "../styles/RealFakeCloths.module.css";
-import ProductsPage from "../assets/ProductsPage.png";
-import ProductsPageSmallScreen from "../assets/ProductsPageSmallScreen.png";
-import SmallerScreenProducts from "../assets/SmallerScreenProducts.png";
+import ProductsPage from "../assets/Ecom/ProductsPage.png";
+import ProductsPageSmallScreen from "../assets/Ecom/ProductsPageSmallScreen.png";
+import SmallerScreenProducts from "../assets/Ecom/SmallerScreenProducts.png";
 
 import { useNavigate } from "react-router-dom";
 

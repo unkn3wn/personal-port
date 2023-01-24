@@ -3,9 +3,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/Projects.module.css";
-import productsImg from "../assets/ProductsPage.png";
-import CryptoFinder from "../assets/CryptoFinder.png";
-import TodoListImg from "../assets/TodoList.png";
+import productsImg from "../assets/Ecom/ProductsPage.png";
+import CryptoFinder from "../assets/Crypto/CryptoFinder.png";
+import TodoListImg from "../assets/TodoList/TodoList.png";
+import mainStrangers from "../assets/StrangerThings/strangersMain.png";
 
 export default function Projects() {
   const nav = useNavigate();
@@ -38,9 +39,24 @@ export default function Projects() {
             Allows you to be able and do a todo list
           </h3>
           <button
-          onClick={()=>{
-            nav("/Todo")
-          }}
+            onClick={() => {
+              nav("/Todo");
+            }}
+            className={styles.infoButton}
+          >
+            Learn More
+          </button>
+        </div>
+        <div className={styles.singleCard}>
+          <h1 className={styles.titleProjects}>Strangers Things</h1>
+          <img className={styles.strangerpic1} src={mainStrangers} />
+          <h3 className={styles.descriptionsProjects}>
+            A craigslist clone website where one can buy and seell products
+          </h3>
+          <button
+            onClick={() => {
+              nav("/StrangersThings");
+            }}
             className={styles.infoButton}
           >
             Learn More

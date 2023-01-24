@@ -18,7 +18,6 @@ export default function Pg1() {
         </div>
       </div>
       <div className="mt-36">
-        <h1 className="text-center text-2xl">ABOUT ME</h1>
         <h3 className="text-center mx-10 text-4xl">
           Passionate Web Developer, Seeking to land my first job as a Web
           Developer. Always open to learn new languages and new programming

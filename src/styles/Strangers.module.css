@@ -1,38 +1,22 @@
 .pic1 {
-  height: 300px;
-  width: 500px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-.firstImage{
-  margin-left: auto;
-  margin-right: auto;
-  height: 400px;
+  margin-top: 20px;
   width: 300px;
-  margin-top: 50px;
 }
-
 .pic2 {
-  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   width: 350px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
 }
-.pic3 {
-  height: 500px;
-  width: 300px;
-  margin-left: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+.pic3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 360px;
+    
 }
-
-
 .allDescription {
   margin-left: 10px;
   margin-right: 10px;
@@ -55,7 +39,7 @@
 }
 
 .links{
-   margin-left: 20px;
+   margin-left: 30px;
    background-color: yellow;
    height: 40px;
    border-radius: 10px;
@@ -67,22 +51,4 @@
 
 .links:hover{
   box-shadow: 0 0 11px yellow; 
-}
-
-.pic3{
-  height: 500px;
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
-.pic4{
-  height: 500px;
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
 }
