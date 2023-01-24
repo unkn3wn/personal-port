@@ -8,7 +8,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Education from "./Education";
 import AboutMe from "./AboutMe";
-
+import Contact from "./Contact";
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -19,20 +19,23 @@ export default function Home() {
         <Pg1 />
       </section>
       <section className={styles.sections}>
-        <h1>SKILLS</h1>
+        <h1 className={styles.skills}>SKILLS</h1>
         <Skills />
       </section>
       <section className={styles.sections}>
-        <h1>Projects</h1>
+        <h1 className={styles.projects}>Projects</h1>
         <Projects />
       </section>
       <section className={styles.sections}>
-        <h1>Education</h1>
+        <h1 className={styles.education}>Education</h1>
         <Education/>
       </section>
       <section className={styles.sections}>
-        <h1>About Me</h1>
+        <h1 className={styles.aboutMe}>About Me</h1>
         <AboutMe/>
+      </section>
+      <section className={styles.sections}>
+    <Contact/>
       </section>
     
     </div>
