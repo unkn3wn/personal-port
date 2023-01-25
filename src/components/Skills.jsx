@@ -8,7 +8,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <div >
+    <div>
       {/* data-aos */}
       <div className="flex flex-wrap justify-center ">
         {/* javaScript */}

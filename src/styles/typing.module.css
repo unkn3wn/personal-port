@@ -1,9 +1,31 @@
+/*  place-items-center place-content-center mt-36 */
+.container {
+  display: flex;
+  margin-top: 13rem;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text {
+  text-align: center;
+}
 .nameMe {
   position: relative;
   font-size: 3.82vw;
   color: white;
-  -webkit-text-stroke: .1vw grey;
+  -webkit-text-stroke: 0.1vw grey;
   text-transform: uppercase;
+}
+.imgCon {
+  margin-left: 5rem;
+}
+.ferni {
+  height: 200px;
+  width: 200px;
 }
 
 .nameMe::before {
@@ -14,7 +36,7 @@
   width: 10%;
   height: 100%;
   color: blue;
-  -webkit-text-stroke: .1vw blue;
+  -webkit-text-stroke: 0.1vw blue;
   border-right: 3px solid grey;
   overflow: hidden;
   animation: animate 3s linear infinite;
@@ -27,8 +49,24 @@
     width: 0;
   }
   70%,
-  
   90% {
     width: 103%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgCon {
+    margin-left: 0px;
+  }
+
+  .ferni {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
   }
 }

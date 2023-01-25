@@ -4,17 +4,16 @@ import ferni from "../assets/meFoto.jpg";
 export default function Pg1() {
   return (
     <div>
-      <div className="flex place-items-center place-content-center mt-36">
-        <div className="mt-10 ml-10">
-          <h3>Hello</h3>
+      <div className={styles.container}>
+        <div className={styles.description}>
+          <h3 className={styles.text}>Hello</h3>
           <h1 data-text="I'M FERNANDO REYES" className={styles.nameMe}>
             I'M FERNANDO REYES
           </h1>
-          <h3>Welcome to my site</h3>
+          <h3 className={styles.text}>Welcome to my site</h3>
         </div>
-
-        <div className="ml-16">
-          <img className="h-56 w-56" src={ferni} />
+        <div className={styles.imgCon}>
+          <img className={styles.ferni} src={ferni} />
         </div>
       </div>
       <div className="mt-36">

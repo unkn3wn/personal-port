@@ -9,16 +9,17 @@ import Projects from "./Projects";
 import Education from "./Education";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
+import Footer from "./Footer";
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
     <div>
-      <section>
+      <section className={styles.sections}>
         <Pg1 />
       </section>
-      <section className={styles.sections}>
+      <section >
         <h1 className={styles.skills}>SKILLS</h1>
         <Skills />
       </section>
@@ -36,6 +37,9 @@ export default function Home() {
       </section>
       <section className={styles.sections}>
     <Contact/>
+      </section>
+      <section className={styles.sections}>
+      <Footer/>
       </section>
     
     </div>
