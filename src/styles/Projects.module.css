@@ -15,17 +15,18 @@
 }
 .cryptoFinder {
   height: 400px;
-  margin-top:20px;
+  width: 400px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
-.todoImg{
+.todoImg {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
   margin-top: 20px;
 }
-.projectImg {
+.eComImg {
   height: 400px;
   width: 450px;
   margin-top: 20px;
@@ -46,9 +47,35 @@
   margin-left: 40px;
 }
 
-.strangerpic1{
+.strangerpic1 {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .singleCard {
+    width: 400px;
+    height: 600px;
+  }
+
+  .eComImg {
+    height: 200px;
+    width: 200px;
+  }
+
+  .cryptoFinder {
+    height: 300px;
+    width: 200px;
+  }
+  .todoImg {
+    height: 300px;
+    width: 200px;
+  }
+
+  .strangerpic1 {
+    height: 300px;
+    width: 250px;
+  }
 }

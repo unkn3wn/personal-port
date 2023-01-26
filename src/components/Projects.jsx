@@ -17,7 +17,7 @@ export default function Projects() {
         {/* another for each individual card  */}
         <div className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Real Fake Cloths</h1>
-          <img src={productsImg} className={styles.projectImg} />
+          <img src={productsImg} className={styles.eComImg} />
           <h3 className={styles.descriptionsProjects}>
             A fullt interactve E-Commerce website that allows a user to exchange
             currency for a variey of clothing{" "}
