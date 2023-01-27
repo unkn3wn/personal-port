@@ -9,7 +9,6 @@ export default function Contact() {
 
   return (
     <div>
-     
       <form className={styles.theForm} onSubmit={handleSubmit}>
         <input
           className={styles.inputs}
@@ -19,6 +18,7 @@ export default function Contact() {
           name="name"
           required
         />
+
         <ValidationError prefix="Name" fields="name" errors={state.errors} />
         <input
           className={styles.inputs}
@@ -46,7 +46,7 @@ export default function Contact() {
           className="flex rounded-3xl justify-center text-center bg-blue-700 w-16 mt-12 ml-auto mr-10"
           type="submit"
         >
-          send{" "}
+          send
         </button>
       </form>
     </div>

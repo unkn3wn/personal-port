@@ -9,7 +9,7 @@ nav {
     padding: 0 15%;
     height: 75px;
     line-height: 75px;
-    background-color:grey;
+    background-color:rgb(17 24 39);
     color: whitesmoke;
   }
   
@@ -60,9 +60,10 @@ nav {
     nav .navList {
       display: grid;
       position: absolute;
-      background:yellow;
+      background:rgb(55 65 81);
       width: 100%;
-      color: black;
+      color: white;
+      font-weight: bolder;
       top: 75px;
       left: 0;
       transform: translateY(-900%);

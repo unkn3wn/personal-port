@@ -4,9 +4,11 @@ import { useState, useEffect } from "react";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import IconButton from "@mui/material/IconButton";
+import { useNavigate } from "react-router-dom";
 
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
+  const nav = useNavigate();
 
   useEffect(() => {
     if (theme === "dark") {
@@ -42,6 +44,10 @@ export default function NavBar() {
           >
             {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
+
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} to="/">Home</Link>
+          </li>
 
           <li className={styles.navItem}>
             <Link className={styles.navLink}>Skills</Link>
