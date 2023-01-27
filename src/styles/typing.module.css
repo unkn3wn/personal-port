@@ -12,9 +12,12 @@
 
 .text {
   text-align: center;
+  font-family: 'Yellowtail', cursive;
+  font-size: 3rem;
 }
 .nameMe {
   position: relative;
+  font-family: 'Covered By Your Grace', cursive;
   font-size: 3.82vw;
   color: white;
   -webkit-text-stroke: 0.1vw grey;
@@ -35,8 +38,8 @@
   left: 0;
   width: 10%;
   height: 100%;
-  color: blue;
-  -webkit-text-stroke: 0.1vw blue;
+  color: rgb(185 28 28);
+  -webkit-text-stroke: 0.1vw rgb(185 28 28);;
   border-right: 3px solid grey;
   overflow: hidden;
   animation: animate 3s linear infinite;

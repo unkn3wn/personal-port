@@ -20,7 +20,7 @@ function ReaMore({ children }) {
 export default function AboutMe() {
   return (
     <div className={styles.main}>
-      <h3>
+      <h3 >
         <ReaMore>
           Olá! I am a recent graduate from San Jose State University Tech
           Bootcamp, Powered by FullStack Academy, seeking to land my first job.
