@@ -3,7 +3,7 @@ import ferni from "../assets/meFoto.jpg";
 
 export default function Pg1() {
   return (
-    <div>
+    <div >
       <div className={styles.container}>
         <div className={styles.description}>
           <h3 className={styles.text}>Hello</h3>

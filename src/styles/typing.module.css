@@ -1,12 +1,12 @@
 /*  place-items-center place-content-center mt-36 */
 .container {
   display: flex;
-  margin-top: 13rem;
+  margin-top: 4.1rem;
   align-items: center;
   justify-content: center;
 }
 .description {
-  margin-top: auto;
+  margin-top:8rem;
   margin-bottom: auto;
 }
 
@@ -25,6 +25,7 @@
 }
 .imgCon {
   margin-left: 5rem;
+  margin-top: 8rem;
 }
 .ferni {
   height: 200px;

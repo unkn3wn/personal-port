@@ -10,13 +10,15 @@ import Education from "./Education";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
+
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
     <div>
-      <section >
+      <section className="w-full">
         <Pg1 />
       </section>
       <section className={styles.sections}>
