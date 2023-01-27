@@ -10,11 +10,11 @@ export default function Skills() {
   return (
     <div>
       {/* data-aos */}
-      <div className="flex flex-wrap justify-center ">
+      <div className="flex flex-wrap mx-auto ">
         {/* javaScript */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52 "
+          className="flex flex-col bg-gray-800  mx-5 mt-9 rounded-lg shadow-md w-full  overflow-hidden sm:w-52 "
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
@@ -33,7 +33,7 @@ export default function Skills() {
         {/* react */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col bg-gray-800  mx-5 mt-9 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
@@ -53,7 +53,7 @@ export default function Skills() {
         {/* nodeJs */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
@@ -73,7 +73,7 @@ export default function Skills() {
 
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
@@ -92,7 +92,7 @@ export default function Skills() {
         {/* psql */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
@@ -111,7 +111,7 @@ export default function Skills() {
         {/* HTML */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
@@ -131,7 +131,7 @@ export default function Skills() {
         {/* css */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
@@ -151,7 +151,7 @@ export default function Skills() {
         {/* bootstrap */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
@@ -171,7 +171,7 @@ export default function Skills() {
         {/* mateiral ui */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full mx-5 mt-9 overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg"
@@ -191,7 +191,7 @@ export default function Skills() {
         {/* tailwind */}
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full mx-5 mt-9 overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
@@ -212,7 +212,7 @@ export default function Skills() {
 
         <div
           data-aos="fade-up"
-          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52"
+          className="flex flex-col bg-gray-800 rounded-lg shadow-md w-full mx-5 mt-9 overflow-hidden sm:w-52"
         >
           <img
             src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg"

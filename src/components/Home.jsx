@@ -16,19 +16,19 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <section className={styles.sections}>
+      <section >
         <Pg1 />
       </section>
-      <section >
-        <h1 className={styles.skills}>SKILLS</h1>
+      <section className={styles.sections}>
+        <h1 className={styles.skills}  data-aos="fade-left">SKILLS</h1>
         <Skills />
       </section>
       <section className={styles.sections}>
-        <h1 className={styles.projects}>Projects</h1>
+        <h1 className={styles.projects}  data-aos="fade-right">Projects</h1>
         <Projects />
       </section>
       <section className={styles.sections}>
-        <h1 className={styles.education}>Education</h1>
+        <h1 className={styles.education} data-aos="fade-right">Education</h1>
         <Education/>
       </section>
       <section className={styles.sections}>

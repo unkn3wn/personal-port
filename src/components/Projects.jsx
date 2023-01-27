@@ -1,4 +1,4 @@
-import react, { useEffect } from "react";
+import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
@@ -10,12 +10,16 @@ import mainStrangers from "../assets/StrangerThings/strangersMain.png";
 
 export default function Projects() {
   const nav = useNavigate();
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
+
   return (
     <div>
       {/* make a div for all the cards */}
       <div className={styles.allCards}>
         {/* another for each individual card  */}
-        <div className={styles.singleCard}>
+        <div data-aos="fade-left" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Real Fake Cloths</h1>
           <img src={productsImg} className={styles.eComImg} />
           <h3 className={styles.descriptionsProjects}>
@@ -32,7 +36,7 @@ export default function Projects() {
           </button>
         </div>
 
-        <div className={styles.singleCard}>
+        <div data-aos="fade-right" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Todo List</h1>
           <img className={styles.todoImg} src={TodoListImg} />
           <h3 className={styles.descriptionsProjects}>
@@ -47,7 +51,7 @@ export default function Projects() {
             Learn More
           </button>
         </div>
-        <div className={styles.singleCard}>
+        <div data-aos="fade-left" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Strangers Things</h1>
           <img className={styles.strangerpic1} src={mainStrangers} />
           <h3 className={styles.descriptionsProjects}>
@@ -63,7 +67,7 @@ export default function Projects() {
           </button>
         </div>
 
-        <div className={styles.singleCard}>
+        <div data-aos="fade-right" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Crypto Finder</h1>
           <img className={styles.cryptoFinder} src={CryptoFinder} />
           <h3 className={styles.descriptionsProjects}>
