@@ -32,10 +32,11 @@ export default function Home() {
         <Education/>
       </section>
       <section className={styles.sections}>
-        <h1 className={styles.aboutMe}>About Me</h1>
+        <h1 className={styles.aboutMe} data-aos="fade-left">About Me</h1>
         <AboutMe/>
       </section>
       <section className={styles.sections}>
+      <h1 className={styles.contactMe}>Contact Me</h1>
     <Contact/>
       </section>
       <section className={styles.sections}>

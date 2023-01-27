@@ -9,7 +9,7 @@ function ReaMore({ children }) {
   };
   return (
     <p className={styles.text}>
-      {readMore ? sentances.slice(0, 210) : sentances}
+      {readMore ? sentances.slice(0, 221) : sentances}
       <span className={styles.continueRead} onClick={toggleReadMore}>
         {readMore ? "   continue reading" : "hide"}
       </span>
@@ -22,22 +22,20 @@ export default function AboutMe() {
     <div className={styles.main}>
       <h3>
         <ReaMore>
-          olá I am recent graduate from San Jose State University Tech Bootcamp
-          Powered by FullStack Academy seeking to land my first job. I Love to
-          learn new things especially if its tech related. How I got into
-          coding? When I was in seventh grade I remeber we would go to computer
-          lab probably 1 time a week and if we were lucky we would go twice a
-          week. I was searching the web and I right clicked and a few options
-          came up. I saw the word inspect and I clicked on it and a bunch of
-          random code had popped up. At the time I had known code as "random
-          letters and words". My last year of high school was when I really
-          started to learn more about code I took the intro to computer science
-          course where I learned about HTML, CSS, and a little bit of javascript
-          on code.org. Despite loving code I went in with the idea of wanting to
-          major in Cyber Secrity but that didnt go as planned so thats when I
-          decided to do a Bootcamp to learn about web development, and here I am
-          today coding my own portfolio in hopes of landing my first job to
-          continue expanding on my knowledge of code.
+          Olá! I am a recent graduate from San Jose State University Tech
+          Bootcamp, Powered by FullStack Academy, seeking to land my first job.
+          I love to learn new things especially if it is tech related. How did I
+          get into coding? When I was in seventh grade I remember we would go to
+          the computer lab probably once a week and, if we were lucky, we would
+          go twice a week. When I was searching the web, I right clicked and a
+          few options came up. I saw the word inspect, clicked on it, and long
+          lines of random code popped up. At the time, I had known code as
+          "random letters and words". My last year of high school was when I
+          started to learn more about code. I took the Intro to Computer Science
+          course where I learned about HTML, CSS, and some Javascript on
+          Code.org.Two years later,I decided to do a Bootcamp to learn about web
+          development, and here I am today, coding my own portfolio, to land my
+          first job and continue expanding my knowledge of code.
         </ReaMore>
       </h3>
     </div>

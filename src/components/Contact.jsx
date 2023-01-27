@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className={styles.title}>Contact Me</h1>
+     
       <form className={styles.theForm} onSubmit={handleSubmit}>
         <input
           className={styles.inputs}

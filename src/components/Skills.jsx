@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <div>
       {/* data-aos */}
-      <div className="flex flex-wrap mx-auto ">
+      <div className="flex flex-wrap mx-auto justify-center ">
         {/* javaScript */}
         <div
           data-aos="fade-up"
@@ -89,6 +89,27 @@ export default function Skills() {
             <p className="bg-blue-500 text-center">Express</p>
           </a>
         </div>
+        {/* redux */}
+
+        <div
+          data-aos="fade-up"
+          className="flex flex-col mx-5 mt-9 bg-gray-800 rounded-lg shadow-md w-full  overflow-hidden sm:w-52"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
+            className="h-20 m-6 justify-center"
+            alt="Redux"
+          />
+          <a
+            href="https://redux.js.org/"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500"
+          >
+            Redux
+          </a>
+        </div>
+
         {/* psql */}
         <div
           data-aos="fade-up"
