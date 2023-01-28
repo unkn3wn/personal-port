@@ -11,14 +11,13 @@
 }
 
 .text {
-  text-align: center;
   font-family: 'Yellowtail', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .nameMe {
   position: relative;
   font-family: 'Covered By Your Grace', cursive;
-  font-size: 3.82vw;
+  font-size: 4vw;
   color: white;
   -webkit-text-stroke: 0.1vw grey;
   text-transform: uppercase;

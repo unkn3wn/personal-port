@@ -3,7 +3,7 @@ import CryptoFinderSearch from "../assets/Crypto/CryptoFinderSearch.png";
 import styles from "../styles/RealFakeCloths.module.css";
 export default function CryptoFinderPage() {
   return (
-    <div>
+    <div className="mt-[4.7rem]">
       <img className={styles.pic3} src={CryptoFinder} />
       <img className={styles.pic4} src={CryptoFinderSearch} />
       

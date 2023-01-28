@@ -5,6 +5,7 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import IconButton from "@mui/material/IconButton";
 import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
@@ -27,7 +28,7 @@ export default function NavBar() {
       <nav>
         <a className={styles.navBarBran}>Ferni</a>
         {/* to make the hambergur so when we decrease in size */}
-        <label className={styles.navBarToggler} for="toggle">
+        <label className={styles.navBarToggler} htmlFor="toggle">
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
@@ -37,6 +38,7 @@ export default function NavBar() {
           <IconButton
             sx={{
               fontSize: "100px",
+              color:"white"
             }}
             onClick={() => {
               handleThemeSwitch();
@@ -46,28 +48,11 @@ export default function NavBar() {
           </IconButton>
 
           <li className={styles.navItem}>
-            <Link className={styles.navLink} to="/">Home</Link>
+            <Link className={styles.navLink} to="/">
+              Home
+            </Link>
           </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink}>Skills</Link>
-          </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink}>Projects</Link>
-          </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink}>Education</Link>
-          </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink}>About Me</Link>
-          </li>
-
-          <li className={styles.navItem}>
-            <Link className={styles.navLink}>Contact Me</Link>
-          </li>
+        
         </ul>
       </nav>
     </div>

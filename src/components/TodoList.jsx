@@ -6,7 +6,7 @@ import styles from "../styles/RealFakeCloths.module.css";
 
 export default function Todo() {
   return (
-    <div>
+    <div className="mt-[4.7rem]">
       <img className={styles.firstImage} src={TodoListImg} />
       <img className={styles.firstImage} src={updateImg} />
       <img className={styles.firstImage} src={createImg} />

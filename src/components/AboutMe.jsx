@@ -1,7 +1,15 @@
 import styles from "../styles/ReaMore.module.css";
+import { useEffect } from "react";
 import { useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function ReaMore({ children }) {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
+
   const sentances = children;
   const [readMore, setReadMore] = useState(true);
   const toggleReadMore = () => {
@@ -20,7 +28,7 @@ function ReaMore({ children }) {
 export default function AboutMe() {
   return (
     <div className={styles.main}>
-      <h3 >
+      <h3 data-aos="fade-right">
         <ReaMore>
           Olá! I am a recent graduate from San Jose State University Tech
           Bootcamp, Powered by FullStack Academy, seeking to land my first job.

@@ -10,6 +10,8 @@ export default function Skills() {
   return (
     <div>
       {/* data-aos */}
+    
+
       <div className="flex flex-wrap mx-auto justify-center ">
         {/* javaScript */}
         <div

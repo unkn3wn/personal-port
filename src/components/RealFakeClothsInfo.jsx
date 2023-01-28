@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 export default function RealFakeClothsInfo() {
   const nav = useNavigate;
   return (
-    <div className="white:bg-white dark:bg-stone-800 dark:text-white dark:text-w ">
+    <div className="white:bg-white dark:bg-stone-800 dark:text-white dark:text-w mt-[4.7rem]">
       <div>
         <div>
           <img className={styles.pic1} src={ProductsPage} />

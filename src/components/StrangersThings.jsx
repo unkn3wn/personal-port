@@ -5,7 +5,7 @@ import styles from "../styles/Strangers.module.css";
 
 export default function StrangersThings() {
   return (
-    <div>
+    <div className="mt-[4.7rem]">
       <img className={styles.pic1} src={mainStrangers} />
       <img className={styles.pic2} src={strangersPost} />
       <img className={styles.pic3} src={strangersmessages} />

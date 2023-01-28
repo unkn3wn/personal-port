@@ -3,6 +3,7 @@ import git from "../assets/git.png";
 import LinkedIn from "../assets/linkedin.png";
 
 export default function Footer() {
+
   return (
     <div className={styles.container}>
       {/* github link */}
