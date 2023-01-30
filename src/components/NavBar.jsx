@@ -38,7 +38,7 @@ export default function NavBar() {
           <IconButton
             sx={{
               fontSize: "100px",
-              color:"white"
+              color: "white",
             }}
             onClick={() => {
               handleThemeSwitch();
@@ -52,7 +52,16 @@ export default function NavBar() {
               Home
             </Link>
           </li>
-        
+          <li className={styles.navItem}>
+            <a
+              className={styles.navLink}
+              target="_blank"
+              href="https://docs.google.com/document/d/1DTDQhnWWj55Aey2Bf4JYAG31XSgu2DjEM1szHDPAHEE/edit"
+            >
+              {" "}
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
