@@ -7,6 +7,7 @@ import productsImg from "../assets/Ecom/ProductsPage.png";
 import CryptoFinder from "../assets/Crypto/CryptoFinder.png";
 import TodoListImg from "../assets/TodoList/TodoList.png";
 import WorkForceImg from "../assets/WorkForce/WorkForceSmall.jpg";
+import PasswordGenIMg from "../assets/passwordgen/passwordGen.jpg";
 import mainStrangers from "../assets/StrangerThings/strangersMain.png";
 
 export default function Projects() {
@@ -36,8 +37,30 @@ export default function Projects() {
             Learn More
           </button>
         </div>
-
+        {/* password gen app */}
         <div data-aos="fade-right" className={styles.singleCard}>
+          <h1 className={styles.titleProjects}>Password Generator</h1>
+          <img className={styles.todoImg} src={PasswordGenIMg} />
+          <h3 className={styles.descriptionsProjects}>
+            Makes you a really secure password has 16 characters: includes 6
+            lowercase letters, 2 uppercase letters, 3 numbers, as well as 3
+            symbols
+          </h3>
+          <button className={styles.infoButton}>
+            <a target="_blank" href="https://p3sswodgenerator.netlify.app/">
+              Website
+            </a>
+          </button>
+          <button className={styles.infoButton}>
+            <a target="_blank" href="https://github.com/unkn3wn/Password-Generator">
+              github
+            </a>
+          </button>
+
+         
+        </div>
+
+        <div data-aos="fade-left" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Todo List</h1>
           <img className={styles.todoImg} src={TodoListImg} />
           <h3 className={styles.descriptionsProjects}>
@@ -52,7 +75,7 @@ export default function Projects() {
             Learn More
           </button>
         </div>
-        <div data-aos="fade-left" className={styles.singleCard}>
+        <div data-aos="fade-right" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Strangers Things</h1>
           <img className={styles.strangerpic1} src={mainStrangers} />
           <h3 className={styles.descriptionsProjects}>
@@ -68,7 +91,7 @@ export default function Projects() {
           </button>
         </div>
 
-        <div data-aos="fade-right" className={styles.singleCard}>
+        <div data-aos="fade-left" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Crypto Finder</h1>
           <img className={styles.cryptoFinder} src={CryptoFinder} />
           <h3 className={styles.descriptionsProjects}>
@@ -85,11 +108,11 @@ export default function Projects() {
           </button>
         </div>
 
-        <h1 data-aos="fade-left" className={styles.volun}>
+        <h1 data-aos="fade-right" className={styles.volun}>
           Voluntary Work
         </h1>
 
-        <div data-aos="fade-right" className={styles.singleCard}>
+        <div data-aos="fade-left" className={styles.singleCard}>
           <h1 className={styles.titleProjects}>Workforce Hope</h1>
           <img className={styles.WorkForceImg} src={WorkForceImg} />
           <h3 className={styles.descriptionsProjects}>
