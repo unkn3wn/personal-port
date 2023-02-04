@@ -5,6 +5,7 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import IconButton from "@mui/material/IconButton";
 import { useNavigate } from "react-router-dom";
+
 import { Button } from "@mui/material";
 
 export default function NavBar() {
@@ -34,8 +35,11 @@ export default function NavBar() {
           <span className={styles.bar}></span>
         </label>
 
-        <ul className={styles.navList}>
-          <IconButton
+        <div className={styles.navList}>
+
+          <div className={styles.containerDrop}>
+
+             <IconButton
             sx={{
               fontSize: "100px",
               color: "white",
@@ -47,12 +51,13 @@ export default function NavBar() {
             {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
 
-          <li className={styles.navItem}>
+          <button className={styles.navItem}>
             <Link className={styles.navLink} to="/">
               Home
             </Link>
-          </li>
-          <li className={styles.navItem}>
+          </button>
+
+          <button className={styles.navItem}>
             <a
               className={styles.navLink}
               target="_blank"
@@ -61,8 +66,12 @@ export default function NavBar() {
               {" "}
               Resume
             </a>
-          </li>
-        </ul>
+          </button>
+
+            </div>         
+        </div>
+
+
       </nav>
     </div>
   );

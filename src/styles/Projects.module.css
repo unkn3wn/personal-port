@@ -17,6 +17,18 @@
   font-size: 25px;
   color: rgb(59 130 246);
 }
+
+.volun{
+  color: rgb(8 145 178);
+  margin-top: 3rem;
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px rgb(8 145 178), 0 0 1em rgb(8 145 178),
+    0 0 0.2em rgb(8 145 178);
+  font-size: 3rem;
+}
+
 .cryptoFinder {
   height: 400px;
   width: 400px;
@@ -41,6 +53,8 @@
   color: white;
   text-align: left;
   margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center;
 }
 .infoButton {
@@ -57,11 +71,18 @@
   margin-right: auto;
   height: 400px;
 }
+.WorkForceImg{
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 
+
+}
 @media only screen and (max-width: 600px) {
   .singleCard {
     width: 380px;
-    height: 600px;
+    height: 640px;
   }
 
   .eComImg {

@@ -6,6 +6,7 @@ import styles from "../styles/Projects.module.css";
 import productsImg from "../assets/Ecom/ProductsPage.png";
 import CryptoFinder from "../assets/Crypto/CryptoFinder.png";
 import TodoListImg from "../assets/TodoList/TodoList.png";
+import WorkForceImg from "../assets/WorkForce/WorkForceSmall.jpg";
 import mainStrangers from "../assets/StrangerThings/strangersMain.png";
 
 export default function Projects() {
@@ -81,6 +82,32 @@ export default function Projects() {
             className={styles.infoButton}
           >
             Learn More
+          </button>
+        </div>
+
+        <h1 data-aos="fade-left" className={styles.volun}>
+          Voluntary Work
+        </h1>
+
+        <div data-aos="fade-right" className={styles.singleCard}>
+          <h1 className={styles.titleProjects}>Workforce Hope</h1>
+          <img className={styles.WorkForceImg} src={WorkForceImg} />
+          <h3 className={styles.descriptionsProjects}>
+            Helped with the front end of this project in a company called Adapa
+            Group located in Guadalajara, Mexico. Used tailwind for this
+          </h3>
+          <button className={styles.infoButton}>
+            <a target="_blank" href="https://www.workforcehope.com/">
+              Website
+            </a>
+          </button>
+          <button className={styles.infoButton}>
+            <a
+              target="_blank"
+              href="https://github.com/AdapaGroup/workforce_frontend"
+            >
+              Github
+            </a>
           </button>
         </div>
       </div>
