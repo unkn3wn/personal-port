@@ -78,12 +78,7 @@ nav .navList .nav-link {
     flex-direction: column;
   }
 
-  .navLink {
-    padding-left: 190px;
-    padding-right: 190px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-  }
+ 
 }
 
 /* end of querey */
