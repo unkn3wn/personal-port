@@ -69,6 +69,9 @@ nav .navList .nav-link {
     transition: 0.4s;
   }
 
+  .navList {
+    text-align: center;
+  }
 
   .containerDrop {
     display: flex;
@@ -76,10 +79,9 @@ nav .navList .nav-link {
   }
 
   .navLink {
-    text-align: center;
-    padding-right: 100%;
-    padding-top: 26px;
-    padding-left: 0px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 27px;
     padding-bottom: 27px;
   }
 }

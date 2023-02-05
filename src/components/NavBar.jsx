@@ -4,13 +4,9 @@ import { useState, useEffect } from "react";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import IconButton from "@mui/material/IconButton";
-import { useNavigate } from "react-router-dom";
-
-import { Button } from "@mui/material";
 
 export default function NavBar() {
   const [theme, setTheme] = useState("light");
-  const nav = useNavigate();
 
   useEffect(() => {
     if (theme === "dark") {
@@ -29,20 +25,16 @@ export default function NavBar() {
       <nav>
         <a className={styles.navBarBran}>Ferni</a>
         {/* to make the hambergur so when we decrease in size */}
-        <label className={styles.navBarToggler} htmlFor="toggle">
+        <label className={styles.navBarToggler} for="toggle">
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
           <span className={styles.bar}></span>
         </label>
 
-        <div className={styles.navList}>
-
-          <div className={styles.containerDrop}>
-
-             <IconButton
+        <ul className={styles.navList}>
+          <IconButton
             sx={{
               fontSize: "100px",
-              color: "white",
             }}
             onClick={() => {
               handleThemeSwitch();
@@ -51,27 +43,22 @@ export default function NavBar() {
             {theme === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
 
-          <button className={styles.navItem}>
-            <Link className={styles.navLink} to="/">
+          <li className={styles.navItem}>
+            <Link to="/" className={styles.navLink}>
               Home
             </Link>
-          </button>
+          </li>
 
-          <button className={styles.navItem}>
+          <li className={styles.navItem}>
             <a
-              className={styles.navLink}
               target="_blank"
               href="https://docs.google.com/document/d/1DTDQhnWWj55Aey2Bf4JYAG31XSgu2DjEM1szHDPAHEE/edit"
+              className={styles.navLink}
             >
-              {" "}
               Resume
             </a>
-          </button>
-
-            </div>         
-        </div>
-
-
+          </li>
+        </ul>
       </nav>
     </div>
   );
