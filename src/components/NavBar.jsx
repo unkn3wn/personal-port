@@ -35,6 +35,7 @@ export default function NavBar() {
           <IconButton
             sx={{
               fontSize: "100px",
+              color:"white"
             }}
             onClick={() => {
               handleThemeSwitch();
