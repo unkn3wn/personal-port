@@ -53,7 +53,7 @@ export default function Projects() {
           </button>
           <button className={styles.infoButton}>
             <a target="_blank" href="https://github.com/unkn3wn/Password-Generator">
-              github
+              Github
             </a>
           </button>
 
