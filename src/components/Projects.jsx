@@ -64,7 +64,7 @@ export default function Projects() {
           <h1 className={styles.titleProjects}>Todo List</h1>
           <img className={styles.todoImg} src={TodoListImg} />
           <h3 className={styles.descriptionsProjects}>
-            Allows you to be able and do a todo list
+            Allows a user to perform CRUD
           </h3>
           <button
             onClick={() => {
